@@ -29,7 +29,7 @@ for arquivo in os.listdir(PATH_EXEC):
     nme_arquivo_fim = arquivo_exec.replace('.txt', '')
     #print(nme_arquivo_fim)
 
-if arquivo_exec:
+if arquivo_exec: #VERIFICA SE HAVIA ARQUIVO NA PASTA
     #ABRINDO ARQUIVO
     ref_arquivo = open(f'{PATH_EXEC}/{arquivo_exec}', 'r')
     for valor in ref_arquivo:
